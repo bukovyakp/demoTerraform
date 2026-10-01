@@ -1,6 +1,0 @@
-{
-  "name": "terraform-platform",
-  "version": "0.1.0",
-  "description": "Скіли, агенти та хуки для Terraform/Terragrunt репозиторіїв",
-  "author": { "name": "bukovyakp" }
-}
