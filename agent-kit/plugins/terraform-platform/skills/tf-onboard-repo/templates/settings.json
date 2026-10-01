@@ -1,0 +1,11 @@
+{
+  "extraKnownMarketplaces": {
+    "bukovyak-kit": {
+      "source": { "source": "github", "repo": "bukovyakp/agent-kit" }
+    }
+  },
+  "enabledPlugins": {
+    "terraform-platform@bukovyak-kit": true,
+    "arch-research@bukovyak-kit": true
+  }
+}
