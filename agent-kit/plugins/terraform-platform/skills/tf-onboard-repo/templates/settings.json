@@ -1,7 +1,7 @@
 {
   "extraKnownMarketplaces": {
     "bukovyak-kit": {
-      "source": { "source": "github", "repo": "bukovyakp/agent-kit" }
+      "source": { "source": "github", "repo": "bukovyakp/MyDemoClode" }
     }
   },
   "enabledPlugins": {

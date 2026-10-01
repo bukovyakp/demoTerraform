@@ -1,4 +1,4 @@
-# agent-kit
+# MyDemoClode (agent-kit)
 
 Особистий маркетплейс плагінів для Claude Code: спільні скіли, агенти й хуки для всіх репозиторіїв.
 
@@ -37,12 +37,12 @@ scripts/
 
 ### На ПК (усі проєкти)
 ```sh
-git clone git@github.com:bukovyakp/agent-kit ~/code/agent-kit
-bash ~/code/agent-kit/scripts/install-local.sh
+git clone git@github.com:bukovyakp/MyDemoClode ~/code/MyDemoClode
+bash ~/code/MyDemoClode/scripts/install-local.sh
 ```
 Потім у Claude Code:
 ```
-/plugin marketplace add ~/code/agent-kit
+/plugin marketplace add ~/code/MyDemoClode
 /plugin install terraform-platform@bukovyak-kit
 /plugin install arch-research@bukovyak-kit
 ```
@@ -53,7 +53,7 @@ bash ~/code/agent-kit/scripts/install-local.sh
 ```json
 {
   "extraKnownMarketplaces": {
-    "bukovyak-kit": { "source": { "source": "github", "repo": "bukovyakp/agent-kit" } }
+    "bukovyak-kit": { "source": { "source": "github", "repo": "bukovyakp/MyDemoClode" } }
   },
   "enabledPlugins": {
     "terraform-platform@bukovyak-kit": true,
@@ -63,7 +63,7 @@ bash ~/code/agent-kit/scripts/install-local.sh
 ```
 Плюс у репо потрібні `AGENTS.md` (факти) і `CLAUDE.md` з одним рядком `@AGENTS.md`.
 
-> Для приватного репо `agent-kit` хмарна сесія / колега повинні мати до нього доступ на GitHub.
+> Для приватного репо `MyDemoClode` хмарна сесія / колега повинні мати до нього доступ на GitHub.
 
 ### База знань для архітектури
 Скопіюй `templates/architecture-kb/` в окремий репо (`~/code/architecture-kb`), заповни `constraints.md` і `principles.md`. Шлях до неї вказаний у `global/CLAUDE.md` і в секції Architecture в `AGENTS.md` репозиторіїв.
